@@ -1,0 +1,21 @@
+.logo-resized{
+	 max-height: 100px;
+	 padding-top: 20px;
+}
+
+.shiftright
+{
+/*	margin-left: 600px;*/
+  position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 30%;
+    left: 50%;
+}
+
+.shiftdown
+{
+	padding-bottom: 20px;
+	padding-top: 30px
+}
