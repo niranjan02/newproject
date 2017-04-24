@@ -16,7 +16,7 @@ class UsersController extends AppController
 		if($this->request->is('post'))
 		{
 			$this->User->saveAll($this->request->data);
-			return $this->redirect(array('controller' => 'Users', 'action' => 'login'));
+		   return $this->redirect($this->Auth->redirectUrl());
         }
 		
     }
